@@ -22,4 +22,5 @@ Note of changes.
 2011/04/19 - change the random sampling scheme in tenf.crr
              so that the number of patients in each fold
              is more balanced
-05/23/2011 - fix a bug in predict.cmprsk
+2011/05/23 - fix a bug in predict.cmprsk
+2021/11/01 - add a vignette
