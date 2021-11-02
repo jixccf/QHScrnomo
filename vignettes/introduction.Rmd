@@ -26,7 +26,6 @@ Before going through the tutorial, load {QHScrnomo}.
 
 ```{r message = FALSE, warning=FALSE, results='hide'}
 library(QHScrnomo)
-sessionInfo()
 ```
 
 ## Example data set
@@ -121,3 +120,8 @@ with(prostate.dat,
 )
 ```
 
+## Session Information
+
+```{r}
+sessionInfo()
+```
