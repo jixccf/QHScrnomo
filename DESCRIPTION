@@ -1,0 +1,26 @@
+Package: QHScrnomo
+Type: Package
+Title: Construct nomograms for competing risk models
+Version: 2.0.3
+biocViews: Regression, TimeCourse, Survival
+Date: 2021-10-27
+Authors@R: c(
+    person("Michael", "Kattan", email = "kattanm@ccf", role = "aut"),
+    person("Changhong", "Yu", email = "yuc@ccf.org", role = "aut"),
+    person("Xinge", "Ji", email="jix@ccf.org", role="cre"))
+Depends: R (>= 4.1.0),Hmisc,rms,cmprsk
+Suggests: 
+    rmarkdown,
+    knitr,
+    survival,
+    testthat (>= 3.0.0)
+Description: Nomograms are constructed to predict cumulative incidence
+    rate, which is calculated by adjusting for competing causes other
+    than that of interest. K-fold cross-validation function is implemented
+    to validate the performance. Competing risk version of concordance index
+    is calculated.
+License: GPL-2
+NeedsCompilation: yes
+Config/testthat/edition: 3
+RoxygenNote: 7.1.2
+VignetteBuilder: knitr
